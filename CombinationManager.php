@@ -29,7 +29,7 @@ class CombinationManager
      */
     public function importCombinations()
     {
-        foreach (ClassMapGenerator::createMap('Combination/') as $className => $fileName)
+        foreach (ClassMapGenerator::createMap(__DIR__ . '/Combination') as $className => $fileName)
         {
             if (class_exists($className))
             {
