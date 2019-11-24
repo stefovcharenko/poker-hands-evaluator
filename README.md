@@ -1,7 +1,7 @@
 Poker Hands Evaluator
 =====================
 
-Poker hands evaluator library can determine the rank of a poker hands and sort them depending on rank it has.
+Poker hands evaluator library can determine the rank of poker hands and sort them depending on rank each hand has.
  
 Requirements
 ============
@@ -49,7 +49,7 @@ $evaluator
     ->setOutput(new StringOutput());
 ```
 
-Then you can receive result in format you set up after calling evaluator's `process` method:
+Then you can receive result in format you set up as output after calling evaluators' `process` method:
 ```php
 $result = $evaluator->process();
 ```
