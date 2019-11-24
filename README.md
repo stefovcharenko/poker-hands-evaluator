@@ -28,7 +28,7 @@ Then, add `stefan/poker-hands-evaluator` package to `require` section in your `c
 ```
 "require": {
   // Some other packages can be here...
-  "stefan/poker-hands-evaluator": "dev-master"
+  "stefan/poker-hands-evaluator": "^1.0"
 }
 ```
 
