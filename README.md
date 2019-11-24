@@ -14,7 +14,7 @@ Installation
 
 First of all, add new VCS source to `repositories` section in your `composer.json`:  
 
-```json   
+```   
 "repositories": [
   // Some other repository sources can be here... 
   {
@@ -25,7 +25,7 @@ First of all, add new VCS source to `repositories` section in your `composer.jso
 ```
 Then, add `stefan/poker-hands-evaluator` package to `require` section in your `composer.json`:
 
-```json
+```
 "require": {
   // Some other packages can be here...
   "stefan/poker-hands-evaluator": "dev-master"
